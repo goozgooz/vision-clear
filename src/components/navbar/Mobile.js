@@ -8,13 +8,14 @@ class Mobile extends Component {
   }
   render() {
     return (
-      <React.Fragment>
+      <div className='mobile-nav'>
+        {/* <h1> Vision Clear </h1> */}
         <Menu width={'100%'}>
           <a id="home" className="menu-item" href="/"> Home </a>
           <a id="about" className="menu-item" href="/about"> About </a>
           <a id="contact" className="menu-item" href="/contact"> Contact </a>
         </Menu>
-      </React.Fragment>
+      </div>
     )
   }
 }
