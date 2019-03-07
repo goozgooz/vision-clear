@@ -3,3 +3,13 @@
 body {
   font-family: $font-main;
 }
+h1 {
+  color: $color-red;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+}

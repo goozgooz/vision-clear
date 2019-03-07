@@ -1,13 +1,2 @@
 @import '../../styles/vars';
 
-.desktop-nav {
-  align-items: center;
-  border-bottom: 5px solid black;
-  display: flex;
-  flex-direction: column;
-
-  li {
-    display: inline;  
-    margin: 30px;
-  }
-}

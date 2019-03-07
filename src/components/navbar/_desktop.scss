@@ -1,1 +1,24 @@
 @import '../../styles/vars';
+
+.desktop-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 100%;
+
+  ul {
+    margin-top: 15px;
+  }
+
+  li {
+    color: $color-gray;
+    display: inline;  
+    margin: 0 30px;
+
+  }
+  .active {
+    color: $color-dark;
+  }
+}
