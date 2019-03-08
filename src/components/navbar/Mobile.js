@@ -9,12 +9,12 @@ class Mobile extends Component {
     this.setState({showMenu: !this.state.showMenu})
   }
   render() {
-    let className = this.state.showMenu ? 'mobile-menu show' : 'mobile-menu hide'
+    let className = this.state.showMenu ? 'mobile-menu show' : 'mobile-menu hide';
     return (
       <React.Fragment>
         <div className='mobile-nav'>
           <h1> Vision Clear </h1>
-          <div onClick={this.toggleMenu}> {this.state.showMenu ? 'X' : 'O'} </div>
+          <div onClick={this.toggleMenu}> {this.state.showMenu ? 'X' : <img alt='' src={require('./hamburger.jpeg')} /> } </div>
         </div>
 
         <ul className={className}>
