@@ -1,6 +1,6 @@
 import './_app.scss';
 import React, { Component } from 'react';
-import Home from '../home/Home';
+import Home from '../Home/Home';
 
 
 class App extends Component {  
