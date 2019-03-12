@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 
 class Mobile extends Component {
   state = {
-    showMenu: true,
+    showMenu: false,
   }
   toggleMenu = () => {
     this.setState({showMenu: !this.state.showMenu})
@@ -13,7 +13,7 @@ class Mobile extends Component {
     return (
       <React.Fragment>
         <div className='mobile-nav'>
-          <h1> Vision Clear </h1>
+          <h2> Vision Clear </h2>
           <div onClick={this.toggleMenu}> {this.state.showMenu ? 'X' : <img alt='' src={require('./hamburger.jpeg')} /> } </div>
         </div>
 

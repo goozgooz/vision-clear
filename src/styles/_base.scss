@@ -4,8 +4,16 @@ body {
   font-family: $font-main;
 }
 h1 {
+  color: $color-dark;
+  font-size: 36px;
+}
+h2 {
   color: $color-red;
   font-size: 24px;
+}
+p {
+  color: $color-gray;
+  line-height: 20px;
 }
 
 @media (min-width: 768px) {

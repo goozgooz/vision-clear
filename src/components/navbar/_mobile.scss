@@ -15,11 +15,10 @@
 
  .mobile-menu {
    align-items: center;
-   display: flex;
    flex-direction: column;
    height: 100vh;
    margin-top: 110px;
-   transition: transform 700ms;
+   overflow-x: hidden;
    width: 100%;
    
    li {
@@ -37,9 +36,9 @@
     
     
 .mobile-menu.show {
-  transform: translateX(0);
+  display: flex;
 }
           
 .mobile-menu.hide {
-  transform: translateX(100%)
+  display: none;
 }

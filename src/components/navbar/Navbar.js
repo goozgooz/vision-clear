@@ -6,7 +6,8 @@ import MediaQuery from 'react-responsive';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    // <div className='navbar'>
+    <React.Fragment>
       <MediaQuery minDeviceWidth={768}>
         <Desktop />
       </MediaQuery>
@@ -14,8 +15,8 @@ const Navbar = () => {
       <MediaQuery maxDeviceWidth={768}>
         <Mobile />
       </MediaQuery>
-      
-    </div>
+    </React.Fragment>
+    // </div>
   );
 };
 
